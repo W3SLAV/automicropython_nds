@@ -1,0 +1,26 @@
+
+static const char *osprey_file =
+"import nds\n"
+// "import os\n"
+"\n"
+"\n"
+"\n"
+"KEY_RIGHT = (1 << 4)   # Keypad RIGHT button.\n"
+"KEY_LEFT  = (1 << 5)   # Keypad LEFT button.\n"
+"KEY_UP    = (1 << 6)   # Keypad UP button.\n"
+"KEY_DOWN  = (1 << 7)   # Keypad DOWN button.\n"
+"KEY_R     = (1 << 8)   # Right shoulder button.\n"
+"KEY_L     = (1 << 9)   # Left shoulder button.\n"
+"KEY_X     = (1 << 10)  # Keypad X button.\n"
+"while 2>1:\n"
+"   nds.swiWaitForVBlank()\n"
+"   nds.scanKeys()\n"
+"   keys = nds.keysDown()\n"
+"   if (keys == KEY_UP):\n"
+"       print('up!')\n"
+"   if (keys == KEY_DOWN):\n"
+"       print('down!')\n"
+"\n"
+//"for i in range(10):\n"
+//"    print('iter {:08}'.format(i))";
+"\n";

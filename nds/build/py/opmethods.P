@@ -1,0 +1,52 @@
+build/py/opmethods.o: ../py/opmethods.c ../py/obj.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/assert.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/_ansi.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/newlib.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/_newlib_version.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/config.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/machine/ieeefp.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/features.h \
+ ../py/mpconfig.h mpconfigport.h \
+ /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/stdint.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/machine/_default_types.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/_intsup.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/_stdint.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/alloca.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/reent.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/_ansi.h \
+ /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/14.2.0/include/stddef.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/cdefs.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/_types.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/machine/_types.h \
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/lock.h ../py/misc.h \
+ /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/14.2.0/include/stdbool.h \
+ ../py/qstr.h \
+ /run/media/user/STEAM/projects/micropython-nds/nds/build/genhdr/qstrdefs.generated.h \
+ ../py/mpprint.h ../py/runtime0.h ../py/builtin.h
+../py/opmethods.c ../py/obj.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/assert.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/_ansi.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/newlib.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/_newlib_version.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/config.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/machine/ieeefp.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/features.h :
+ ../py/mpconfig.h mpconfigport.h :
+ /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/stdint.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/machine/_default_types.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/_intsup.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/_stdint.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/alloca.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/reent.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/_ansi.h :
+ /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/14.2.0/include/stddef.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/cdefs.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/_types.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/machine/_types.h :
+ /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/lock.h ../py/misc.h :
+ /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/14.2.0/include/stdbool.h :
+ ../py/qstr.h :
+ /run/media/user/STEAM/projects/micropython-nds/nds/build/genhdr/qstrdefs.generated.h :
+ ../py/mpprint.h ../py/runtime0.h ../py/builtin.h :
