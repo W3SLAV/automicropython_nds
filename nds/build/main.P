@@ -25,7 +25,7 @@ build/main.o: main.c \
  /opt/devkitpro/devkitARM/arm-none-eabi/include/alloca.h ../py/qstr.h \
  ../py/misc.h \
  /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/14.2.0/include/stdbool.h \
- /run/media/user/STEAM/projects/micropython-nds/nds/build/genhdr/qstrdefs.generated.h \
+ /run/media/user/STEAM/projects/automicropython_nds/nds/build/genhdr/qstrdefs.generated.h \
  ../py/reader.h ../py/obj.h \
  /opt/devkitpro/devkitARM/arm-none-eabi/include/assert.h ../py/mpprint.h \
  ../py/runtime0.h ../py/parse.h ../py/emitglue.h ../py/bc.h \
@@ -35,7 +35,7 @@ build/main.o: main.c \
  /opt/devkitpro/devkitARM/arm-none-eabi/include/limits.h \
  /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/syslimits.h \
  ../py/objlist.h ../py/objexcept.h ../py/objtuple.h \
- /run/media/user/STEAM/projects/micropython-nds/nds/build/genhdr/root_pointers.h \
+ /run/media/user/STEAM/projects/automicropython_nds/nds/build/genhdr/root_pointers.h \
  ../py/pystack.h ../py/stackctrl.h /opt/devkitpro/libnds/include/nds.h \
  /opt/devkitpro/calico/include/calico.h \
  /opt/devkitpro/calico/include/calico/types.h \
@@ -154,7 +154,7 @@ build/main.o: main.c \
  /opt/devkitpro/libnds/include/nds/arm9/sprite.h \
  /opt/devkitpro/libnds/include/nds/arm9/trig_lut.h \
  /opt/devkitpro/libnds/include/nds/arm9/video.h \
- /opt/devkitpro/libnds/include/nds/arm9/videoGL.h code.c font.c font.h
+ /opt/devkitpro/libnds/include/nds/arm9/videoGL.h code.c
 main.c :
  /opt/devkitpro/devkitARM/arm-none-eabi/include/string.h :
  /opt/devkitpro/devkitARM/arm-none-eabi/include/_ansi.h :
@@ -182,7 +182,7 @@ main.c :
  /opt/devkitpro/devkitARM/arm-none-eabi/include/alloca.h ../py/qstr.h :
  ../py/misc.h :
  /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/14.2.0/include/stdbool.h :
- /run/media/user/STEAM/projects/micropython-nds/nds/build/genhdr/qstrdefs.generated.h :
+ /run/media/user/STEAM/projects/automicropython_nds/nds/build/genhdr/qstrdefs.generated.h :
  ../py/reader.h ../py/obj.h :
  /opt/devkitpro/devkitARM/arm-none-eabi/include/assert.h ../py/mpprint.h :
  ../py/runtime0.h ../py/parse.h ../py/emitglue.h ../py/bc.h :
@@ -192,7 +192,7 @@ main.c :
  /opt/devkitpro/devkitARM/arm-none-eabi/include/limits.h :
  /opt/devkitpro/devkitARM/arm-none-eabi/include/sys/syslimits.h :
  ../py/objlist.h ../py/objexcept.h ../py/objtuple.h :
- /run/media/user/STEAM/projects/micropython-nds/nds/build/genhdr/root_pointers.h :
+ /run/media/user/STEAM/projects/automicropython_nds/nds/build/genhdr/root_pointers.h :
  ../py/pystack.h ../py/stackctrl.h /opt/devkitpro/libnds/include/nds.h :
  /opt/devkitpro/calico/include/calico.h :
  /opt/devkitpro/calico/include/calico/types.h :
@@ -311,4 +311,4 @@ main.c :
  /opt/devkitpro/libnds/include/nds/arm9/sprite.h :
  /opt/devkitpro/libnds/include/nds/arm9/trig_lut.h :
  /opt/devkitpro/libnds/include/nds/arm9/video.h :
- /opt/devkitpro/libnds/include/nds/arm9/videoGL.h code.c font.c font.h :
+ /opt/devkitpro/libnds/include/nds/arm9/videoGL.h code.c :
